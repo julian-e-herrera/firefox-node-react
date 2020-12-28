@@ -1,0 +1,31 @@
+{
+  "name": "firefox-node-react",
+  "version": "1.0.0",
+  "description": "Project NodeSend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julian-e-herrera/firefox-node-react.git"
+  },
+  "author": "Julian Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julian-e-herrera/firefox-node-react/issues"
+  },
+  "homepage": "https://github.com/julian-e-herrera/firefox-node-react#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "shortid": "^2.2.16"
+  }
+}
